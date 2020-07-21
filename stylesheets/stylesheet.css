@@ -770,6 +770,13 @@ footer a:hover {
   content: '.';
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
