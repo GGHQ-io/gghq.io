@@ -1570,8 +1570,9 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		border-bottom: solid 0px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
+		height: 660px;
 	}
 
 		.box .image.featured {
@@ -2173,9 +2174,9 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/backgroundplain.png");
+		background: #252122 url("../../images/backgroundplain.png");
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: auto 120%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
