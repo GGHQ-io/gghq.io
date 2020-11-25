@@ -1572,7 +1572,7 @@ input, select, textarea {
 		background: #ffffff;
 		border-bottom: solid 0px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
-		height: 660px;
+		height: 530px;
 	}
 
 		.box .image.featured {
@@ -1690,6 +1690,12 @@ input, select, textarea {
 
 /* Image */
 
+	.center {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: auto;
+}
 	.image {
 		display: inline-block;
 		outline: 0;
@@ -1915,7 +1921,7 @@ input, select, textarea {
 				height: 3em;
 				text-align: center;
 				border-radius: 5px;
-				background: #b9314f;
+				background: #f79824;
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-ms-transition: background-color .25s ease-in-out;
@@ -2267,7 +2273,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #252122;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2277,14 +2283,13 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
-			opacity: 0.1;
+			opacity: 1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #252122;
 		}
 
 /* Footer */
@@ -2783,6 +2788,7 @@ input, select, textarea {
 				.box.post header > p {
 					margin-top: 0;
 					font-size: 1em;
+					color: white;
 				}
 
 		/* Divided */
